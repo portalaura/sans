@@ -132,6 +132,11 @@
                             <param id="1" name="Value">&quot;sans_spare&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
+                        <action id="5" name="Push" sid="7956789796541343" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Sans Fight&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
                         <action id="0" name="Request URL" sid="5737873904560182" type="AJAX">
                             <param id="0" name="Tag">AttackLoader.At(FileIndex)</param>
                             <param id="1" name="URL">AttackLoader.At(FileIndex) &amp; &quot;.csv&quot;</param>
