@@ -113,6 +113,11 @@
                             <param id="0" name="Audio file">mus_zz_megalovania</param>
                         </action>
                     </actions>
+                    </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Preload" sid="1634811247740819" type="Audio">
+                            <param id="0" name="Audio file">mus_zz_dust</param>
                 </event-block>
                 <event-block sid="4308489914797654">
                     <conditions>
