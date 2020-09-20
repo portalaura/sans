@@ -134,6 +134,11 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
                         </action>
+                        <action id="0" name="Play" sid="4080759880781125" type="Audio">
+                            <param id="0" name="Audio file">mus_zz_dust</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
                     </actions>
                 </event-block>
                 <event-block sid="7396551310172032">
