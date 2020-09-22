@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1579957933,
+	"version": 1600785625,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -74,6 +74,7 @@
 		"media/playerheal.ogg",
 		"media/gasterblast2.ogg",
 		"media/mus_zz_megalovania.ogg",
+		"media/mus_zz_slacker.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
