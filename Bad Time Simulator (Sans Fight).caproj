@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.jcw87.badtime</app-id>
     <unique-id>3pln6vqtdnxgu</unique-id>
-    <saved-with-version>27500</saved-with-version>
+    <saved-with-version>27900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
@@ -55,7 +55,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Sampling">Point</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -1134,6 +1134,7 @@
     </sounds-folder>
     <music-folder>
         <file name="mus_zz_megalovania.ogg" />
+        <file name="mus_zz_slacker.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
