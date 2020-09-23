@@ -1,9 +1,6 @@
 0,combatzoneresize,133,251,508,391,TLResume
 0,HeartTeleport,320,376,,,,
 0,HeartMode,1,,,,,
-0.2,sansslam,1
-0,sanshead,blueeye
-0,sansbody,handdown
 0.2,bonevrepeat,128,250,20,0,150,15,150
 0,bonevrepeat,128,370,20,0,150,15,150
 0,bonevrepeat,503,250,20,2,150,15,150

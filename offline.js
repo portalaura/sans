@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1600867901,
+	"version": 1600871711,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -82,9 +82,7 @@
 		"icon-256.png",
 		"loading-logo.png",
 		"sans_intro.csv",
-		"sans_bonegap1.csv",
 		"sans_bonegap2.csv",
-		"sans_bluebone.csv",
 		"sans_platforms1.csv",
 		"sans_platforms2.csv",
 		"sans_platforms3.csv",
@@ -104,6 +102,8 @@
 		"sans_randomblaster2.csv",
 		"sans_bonestab3.csv",
 		"sans_multi3.csv",
-		"sans_final.csv"
+		"sans_final.csv",
+		"sans_bonegap1.csv",
+		"sans_bluebone.csv"
 	]
 }
