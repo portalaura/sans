@@ -1,6 +1,6 @@
 ﻿{
-	"name": "modded",
-	"short_name": "modded",
+	"name": "Worst Time Simulator",
+	"short_name": "Worst Time Simulator",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
