@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1600886665,
+	"version": 1601058252,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -75,6 +75,7 @@
 		"media/gasterblast2.ogg",
 		"media/mus_zz_megalovania.ogg",
 		"media/mus_zz_slacker.ogg",
+		"media/mus_zz_slacker2.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
@@ -104,6 +105,7 @@
 		"sans_multi3.csv",
 		"sans_final.csv",
 		"sans_bonegap1.csv",
-		"sans_bluebone.csv"
+		"sans_bluebone.csv",
+		"sans_healattack.csv"
 	]
 }
