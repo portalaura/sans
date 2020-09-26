@@ -12,14 +12,17 @@
 0,sansbody,handup
 0.5,BoneV,503,255,135,2,200,1
 0,BoneV,128,255,135,0,200,1
+0,Sound,BoneStab,,,,
 2.5,sansslam,1
 0,sansbody,handdown
 0.5,BoneV,503,255,135,2,200,1
 0,BoneV,128,255,135,0,200,1
+0,Sound,BoneStab,,,,
 2.5,sansslam,3
 0,sansbody,handup
 0.5,BoneV,503,255,135,2,200,1
 0,BoneV,128,255,135,0,200,1
+0,Sound,BoneStab,,,,
 3,sansslam,1
 0,sansbody,handdown
 0.5,sansanimation,Idle
