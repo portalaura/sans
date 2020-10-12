@@ -5,6 +5,6 @@
 0,BoneVRepeat,128,230,60,0,160,50,75
 0.6,set,loop,8
 0,sub,loop,$loop,1
-0,gasterblaster,1,0,315,80,315,0,0.3,0.15
-1.6,jmpnz,7,$loop
+0,gasterblaster,1,0,315,80,315,0,0.3,0.1
+1,jmpnz,7,$loop
 0,EndAttack,,,,,,
