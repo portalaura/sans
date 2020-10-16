@@ -46,4 +46,4 @@
 0,GetHeartPos,HeartX,HeartY
 0,Angle,ang,100,300,$HeartX,$HeartY
 0.5,gasterblaster,0,800,0,100,300,$ang,0.5,0.3
-4,endattack
+2.5,endattack
