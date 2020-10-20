@@ -1,7 +1,7 @@
 0,CombatZoneResize,250,250,400,391,TLResume
 0,HeartTeleport,320,304,,,,,,
 0,SET,gt,0,,,,,,
-0,SET,gin,1,,,,,,
+0,SET,gin,2.5,,,,,,
 0,MUL,Ang,$gt,-10,,,,,
 0,COS,X,$Ang,,,,,,
 0,SIN,Y,$Ang,,,,,,
