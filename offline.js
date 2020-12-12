@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1604730792,
+	"version": 1607795405,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -23,6 +23,7 @@
 		"images/strike-sheet0.png",
 		"images/combatzoneunclipper.png",
 		"images/sanshead-sheet0.png",
+		"images/sanshead-sheet1.png",
 		"images/sansbody-sheet0.png",
 		"images/sansbody-sheet1.png",
 		"images/sanslegs-sheet0.png",
