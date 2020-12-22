@@ -30,8 +30,8 @@
 0,sound,Ding,,,
 0,bonestab,3,20,0.2,0.2
 0.3,heartmode,0
-0,bonevrepeat,400,241,40,2,200,13,80
-0,bonevrepeat,250,281,30,0,200,13,80
+0,bonevrepeat,400,241,40,2,270,10,140
+0,bonevrepeat,250,281,30,0,270,10,140
 0,bonevrepeat,250,311,120,0,180,60,15
 5.5,sansslam,3
 0,sansbody,handup
