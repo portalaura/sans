@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1608096022,
+	"version": 1608652486,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -78,6 +78,10 @@
 		"media/mus_zz_slacker.ogg",
 		"media/mus_zz_slacker2.ogg",
 		"media/refused to give up.ogg",
+		"media/megalovania but pog.ogg",
+		"media/megalovaina remix.ogg",
+		"media/slowlovania.ogg",
+		"media/worst time simulator - phase 2.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
@@ -95,7 +99,7 @@
 		"sans_boneslideh.csv",
 		"sans_bonegap1fast.csv",
 		"sans_platformblasterfast.csv",
-		"sans_spare.csv",
+		"sans_dunk.csv",
 		"sans_bonestab1.csv",
 		"sans_bonestab2.csv",
 		"sans_boneslidev.csv",
@@ -108,6 +112,7 @@
 		"sans_final.csv",
 		"sans_bonegap1.csv",
 		"sans_bluebone.csv",
-		"sans_healattack.csv"
+		"sans_healattack.csv",
+		"sans_spare.csv"
 	]
 }
