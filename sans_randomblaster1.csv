@@ -1,4 +1,4 @@
-0,Phase2Cosmetics
+0,Cosmetics,Phase2
 0,CombatZoneResize,133,251,508,391,TLResume,,
 0,HeartTeleport,320,376,,,,,
 0,HeartMode,1,,,,,,
@@ -29,7 +29,7 @@
 0,Sound,Flash,,,,,,,
 0,HeartTeleport,325,350,,,,,
 0,heartmode,0
-0,screenflip,Left
+0,screenflip,None
 0.2,sansslam,2
 0,bonestab,0,30,0.5,1
 0.4,bonestab,1,74,0.2,0.6
@@ -39,7 +39,7 @@
 0,Sound,Flash,,,,,,,
 0,HeartTeleport,325,350,,,,,
 0,heartmode,0
-0,screenflip,Right
+0,screenflip,Up
 0.2,sansslam,3
 0,bonestab,3,30,0.5,1
 0.4,bonestab,2,74,0.2,0.6
