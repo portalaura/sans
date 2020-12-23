@@ -1,0 +1,7 @@
+0,CombatZoneResize,250,250,400,391,TLResume
+0,HeartTeleport,320,304,,,,,,
+0.5,bonestab,3,30,0.2,13
+0,bonestab,1,30,0.2,13
+0.2,BoneVRepeat,220,230,100,0,150,12,150
+0,BoneVRepeat,400,305,100,2,150,12,150
+12.5,endattack,,
