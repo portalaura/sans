@@ -2,6 +2,8 @@
 0,HeartTeleport,320,304,,,,,,
 0.5,bonestab,3,30,0.2,13
 0,bonestab,1,30,0.2,13
-0.2,BoneVRepeat,220,230,100,0,150,12,150
-0,BoneVRepeat,400,305,100,2,150,12,150
-12.5,endattack,,
+0.2,BoneVRepeat,220,230,100,0,150,6,150
+0,BoneVRepeat,400,305,100,2,150,6,150
+6.5,BoneVRepeat,400,230,100,2,150,6,150
+0,BoneVRepeat,220,305,100,0,150,6,150
+6,endattack,,
