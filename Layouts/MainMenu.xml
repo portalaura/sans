@@ -51,5 +51,22 @@
         </layer>
     </layers>
     <nonworld-instances />
-    <effects />
+    <effects>
+        <effect-type name="GlowHorizontal">
+            <effect id="glowhorizontal" />
+            <effect-instance type="GlowHorizontal">
+                <parameters>
+                    <intensity>0.35</intensity>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+        <effect-type name="GlowVertical">
+            <effect id="glowvertical" />
+            <effect-instance type="GlowVertical">
+                <parameters>
+                    <intensity>0.35</intensity>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+    </effects>
 </c2layout>
