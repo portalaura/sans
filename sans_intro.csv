@@ -78,11 +78,8 @@
 0.05,bonestab,3,110,0.5,0.2
 0.05,bonestab,0,50,0.5,0.2
 0.05,bonestab,2,50,0.5,0.2
-0.5,sansanimation,Tired
-0,sanshead,Tired1
-0,sanssweat,1
-1,sanstext,still kickin' huh?,,,
-0,sanshead,Noeyes
-0,sanstext,not for long,,,,
+0.5,Sansanimation,Tired
+0.5,IntroDialogue
 0,SansAnimation,Idle
+0,SansHead,NoEyes
 0,endattack

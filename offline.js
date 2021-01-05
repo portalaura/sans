@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1609142154,
+	"version": 1609852040,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -82,6 +82,7 @@
 		"media/megalovaina remix.ogg",
 		"media/slowlovania.ogg",
 		"media/worst time simulator - phase 2.ogg",
+		"media/phase 2 megalo.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
@@ -113,6 +114,7 @@
 		"sans_bonegap1.csv",
 		"sans_bluebone.csv",
 		"sans_healattack.csv",
-		"sans_spare.csv"
+		"sans_spare.csv",
+		"sans_healattack2.csv"
 	]
 }

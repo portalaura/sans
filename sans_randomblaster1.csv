@@ -3,6 +3,8 @@
 0,HeartTeleport,320,376,,,,,
 0,HeartMode,1,,,,,,
 0,TLPause,,,,,,,
+0,SansText,This attack is unfinished      and is going to get       replaced,,,,,
+0,SansText,But this is the old version,,,,
 0,Platform,643,340,40,2,150
 0.4,BoneVRepeat,503,356,40,2,200,160,15
 0,BoneVRepeat,640,241,56,2,120,6,120
@@ -86,4 +88,6 @@
 0.25,sansslam,3
 2.5,BoneVRepeat,390,291,60,0,120,10,60
 0,BoneVRepeat,560,191,60,2,120,10,60
-5,endattack
+5,SansText,aaaand                    thats it,,
+0,Cosmetics,Music
+0,win2
