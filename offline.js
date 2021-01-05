@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1609852040,
+	"version": 1609864816,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -78,10 +78,6 @@
 		"media/mus_zz_slacker.ogg",
 		"media/mus_zz_slacker2.ogg",
 		"media/refused to give up.ogg",
-		"media/megalovania but pog.ogg",
-		"media/megalovaina remix.ogg",
-		"media/slowlovania.ogg",
-		"media/worst time simulator - phase 2.ogg",
 		"media/phase 2 megalo.ogg",
 		"icon-16.png",
 		"icon-32.png",
