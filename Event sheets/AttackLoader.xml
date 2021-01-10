@@ -62,6 +62,11 @@
                             <param id="1" name="Value">&quot;sans_healattack&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
+                        <action id="5" name="Push" sid="868499891984241" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;sans_healattack2&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
                         <action id="5" name="Push" sid="464666220405138" type="AttackLoader">
                             <param id="0" name="Where">0</param>
                             <param id="1" name="Value">&quot;sans_dunk&quot;</param>

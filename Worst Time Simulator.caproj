@@ -1186,10 +1186,8 @@
         <file name="mus_zz_slacker.ogg" />
         <file name="mus_zz_slacker2.ogg" />
         <file name="Refused to give up.ogg" />
-        <file name="Megalovania but pog.ogg" />
-        <file name="Megalovaina remix.ogg" />
-        <file name="Slowlovania.ogg" />
-        <file name="Worst Time Simulator - Phase 2.ogg" />
+        <file name="Phase 2 megalo.ogg" />
+        <file name="Megalovania HardMode.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
@@ -1226,6 +1224,6 @@
         <file name="sans_bluebone.csv" />
         <file name="sans_healattack.csv" />
         <file name="sans_spare.csv" />
-        <file name="HealAttack2.csv" />
+        <file name="sans_healattack2.csv" />
     </files-folder>
 </c2project>

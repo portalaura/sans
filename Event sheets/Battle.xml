@@ -10,130 +10,6 @@
         <include>AttackLoader</include>
         <include>RPGText</include>
         <include>Menus</include>
-        <event-block sid="733781202680326">
-            <conditions>
-                <condition id="0" name="On function" sid="406408296671306" type="Function">
-                    <param id="0" name="Name">&quot;PlayCustomMusic&quot;</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="318398927476199">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="945447472629706" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="265595085090147" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_slacker</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="733207242069261">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="702441418342950" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="328782316885478" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_slacker2</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="787765067368281">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="657821066921744" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="494952953433132" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_megalovania</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="394341955255700">
-            <conditions>
-                <condition id="0" name="On function" sid="912300817127473" type="Function">
-                    <param id="0" name="Name">&quot;Cosmetics&quot;</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="490333906979076" type="System">
-                    <param id="0" name="Variable">SimulatorMode</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">MODE_SINGLE</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="973847455637465">
-                    <conditions>
-                        <condition id="-8" name="Compare two values" sid="598653208238970" type="System">
-                            <param id="0" name="First value">Function.Param(0)</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">&quot;Phase2&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="174392069960413" type="SansHead">
-                            <param id="0" name="Animation">&quot;GoneMad&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="318925455511694" type="SansTorso">
-                            <param id="0" name="Animation">&quot;GoneMad&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="248947825888782" type="Function">
-                            <param id="0" name="Name">&quot;SansAnimation&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Tired&quot;</param>
-                        </action>
-                        <action id="-29" name="Set layout effect enabled" sid="986545675225631" type="System">
-                            <param id="0" name="Mode">1</param>
-                            <param id="1" name="Effect">&quot;AntiAlazingEffectThing&quot;</param>
-                        </action>
-                        <action id="-29" name="Set layout effect enabled" sid="684413982987930" type="System">
-                            <param id="0" name="Mode">1</param>
-                            <param id="1" name="Effect">&quot;ScreenTear&quot;</param>
-                        </action>
-                        <action id="6" name="Stop" sid="504699679720181" type="Audio">
-                            <param id="0" name="Tag">&quot;Music&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="946252910101379">
-                    <conditions>
-                        <condition id="-8" name="Compare two values" sid="175108463420673" type="System">
-                            <param id="0" name="First value">Function.Param(0)</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Second value">&quot;Music&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="6" name="Stop" sid="473599969909196" type="Audio">
-                            <param id="0" name="Tag">&quot;Music&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="6997419290205712">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="2981337075960627" type="System" />
@@ -220,15 +96,23 @@
                     <param id="0" name="Mode">0</param>
                     <param id="1" name="Effect">&quot;ScreenFlip&quot;</param>
                 </action>
-                <action id="-16" name="Wait" sid="810786228744631" type="System">
-                    <param id="0" name="Seconds">1.0</param>
-                </action>
-                <action disabled="1" id="0" name="Call function" sid="601895626993823" type="Function">
-                    <param id="0" name="Name">&quot;MenuBlaster&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
             </actions>
             <sub-events>
+                <event-block sid="813431028094397">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="282134774045910" type="System">
+                            <param id="0" name="Variable">NoDeath</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="862334741867336" type="System">
+                            <param id="0" name="Variable">Name</param>
+                            <param id="1" name="Value">&quot;Noob&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="5660586456921061">
                     <conditions>
                         <condition id="-7" name="Compare instance variable" sid="7073583585924294" type="RPGText">
@@ -250,53 +134,10 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">MODE_NORMAL</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="776129631803581" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Preload" sid="787932127774572" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_slacker</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="785747811309667">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="775156308424881" type="System">
-                            <param id="0" name="Variable">SimulatorMode</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">MODE_NORMAL</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="232569131932503" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Preload" sid="186291478561582" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_slacker2</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="594767604521364">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="109572570877127" type="System">
-                            <param id="0" name="Variable">SimulatorMode</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">MODE_NORMAL</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="362134386074362" type="System">
-                            <param id="0" name="Variable">Music_Select</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Preload" sid="914878983599802" type="Audio">
-                            <param id="0" name="Audio file">mus_zz_megalovania</param>
+                            <param id="0" name="Audio file">Megalovania HardMode</param>
                         </action>
                     </actions>
                 </event-block>
@@ -310,7 +151,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Call function" sid="554641272059113" type="Function">
-                            <param id="0" name="Name">&quot;PlayCustomMusic&quot;</param>
+                            <param id="0" name="Name">&quot;PlayMusic&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
@@ -377,6 +218,115 @@
                         </action>
                         <action id="0" name="Set text" sid="8939946990053354" type="BattleFont">
                             <param id="0" name="Text">&quot;PRESS &apos;X&apos; TO QUIT&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="733781202680326">
+            <conditions>
+                <condition id="0" name="On function" sid="406408296671306" type="Function">
+                    <param id="0" name="Name">&quot;PlayMusic&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="318398927476199">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="945447472629706" type="System">
+                            <param id="0" name="Variable">Mute_Music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="265595085090147" type="Audio">
+                            <param id="0" name="Audio file">Megalovania HardMode</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="394341955255700">
+            <conditions>
+                <condition id="0" name="On function" sid="912300817127473" type="Function">
+                    <param id="0" name="Name">&quot;Cosmetics&quot;</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="490333906979076" type="System">
+                    <param id="0" name="Variable">SimulatorMode</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">MODE_SINGLE</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="973847455637465">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="598653208238970" type="System">
+                            <param id="0" name="First value">Function.Param(0)</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Phase2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="174392069960413" type="SansHead">
+                            <param id="0" name="Animation">&quot;GoneMad&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="318925455511694" type="SansTorso">
+                            <param id="0" name="Animation">&quot;GoneMad&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="248947825888782" type="Function">
+                            <param id="0" name="Name">&quot;SansAnimation&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;Tired&quot;</param>
+                        </action>
+                        <action id="-29" name="Set layout effect enabled" sid="986545675225631" type="System">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;AntiAlazingEffectThing&quot;</param>
+                        </action>
+                        <action id="-29" name="Set layout effect enabled" sid="684413982987930" type="System">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;ScreenTear&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="121202383620300">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="615888854721091" type="System">
+                                    <param id="0" name="Variable">Mute_Music</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Stop" sid="921134029704093" type="Audio">
+                                    <param id="0" name="Tag">&quot;Music&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="504699679720181" type="Audio">
+                                    <param id="0" name="Audio file">Phase 2 megalo</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="946252910101379">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="175108463420673" type="System">
+                            <param id="0" name="First value">Function.Param(0)</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Music&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="473599969909196" type="Audio">
+                            <param id="0" name="Tag">&quot;Music&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -757,6 +707,21 @@
                         <action id="0" name="Call function" sid="179195951125618" type="Function">
                             <param id="0" name="Name">&quot;RunAttack&quot;</param>
                             <param id="1" name="Parameter {n}">&quot;sans_healattack&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="324839221979584">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="920333764592680" type="SansLegs">
+                            <param id="0" name="Instance variable">HitAttempts</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">PHASE2START</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="206342860810942" type="Function">
+                            <param id="0" name="Name">&quot;RunAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;sans_healattack2&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1707,6 +1672,11 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="536787205411415" type="System">
+                                    <param id="0" name="Variable">HP</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">MaxHP</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-10" name="Set value" sid="5244377573294855" type="CombatZone">
@@ -1723,7 +1693,47 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Call function" sid="796629188469123" type="Function">
-                                            <param id="0" name="Name">&quot;PlayCustomMusic&quot;</param>
+                                            <param id="0" name="Name">&quot;PlayMusic&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="201296062609239">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="241661687186587" type="SansLegs">
+                                    <param id="0" name="Instance variable">HitAttempts</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="211638095445263" type="SansLegs">
+                                    <param id="0" name="Instance variable">NextAttack</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="198529115558350" type="System">
+                                    <param id="0" name="Variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">MaxHP</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="371341917976113" type="CombatZone">
+                                    <param id="0" name="Instance variable">InfoText</param>
+                                    <param id="1" name="Value">&quot;* You know Sans is going to have&quot; &amp; newline &amp; &quot;  the worst time of his life.&quot;</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="547095272946056">
+                                    <conditions>
+                                        <condition id="5" inverted="1" name="Is tag playing" sid="623519125155847" type="Audio">
+                                            <param id="0" name="Tag">&quot;Music&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="645755674432027" type="Function">
+                                            <param id="0" name="Name">&quot;PlayMusic&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
@@ -1762,10 +1772,6 @@
                                     <param id="0" name="Instance variable">InfoText</param>
                                     <param id="1" name="Value">&quot;* Sans is sleeping.&quot;</param>
                                 </action>
-                                <action id="0" name="Call function" sid="899751983819471" type="Function">
-                                    <param id="0" name="Name">&quot;MenuBlaster&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="3644008187143449">
@@ -1782,6 +1788,28 @@
                                     <param id="1" name="Value">&quot;* The REAL battle finally begins.&quot;</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="317589722384757">
+                                    <conditions>
+                                        <condition id="5" inverted="1" name="Is tag playing" sid="684191976641301" type="Audio">
+                                            <param id="0" name="Tag">&quot;Music&quot;</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="683136332728596" type="System">
+                                            <param id="0" name="Variable">Mute_Music</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="383705449919107" type="Audio">
+                                            <param id="0" name="Audio file">Phase 2 megalo</param>
+                                            <param id="2" name="Loop">1</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Music&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="1538235747792909">
                             <conditions>
@@ -1904,7 +1932,7 @@
                             </conditions>
                             <actions>
                                 <action id="0" name="Call function" sid="6047132919634249" type="Function">
-                                    <param id="0" name="Name">&quot;MenuBoneLeft&quot;</param>
+                                    <param id="0" name="Name">&quot;MenuBlaster&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
@@ -2579,6 +2607,13 @@
                                         </condition>
                                     </conditions>
                                     <actions>
+                                        <action id="-1" name="Set X" sid="202302055716072" type="SansLegs">
+                                            <param id="0" name="X">220</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="294947338627317" type="SansLegs">
+                                            <param id="0" name="Instance variable">DodgeState</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
                                         <action id="0" name="Call function" sid="360769094852955" type="Function">
                                             <param id="0" name="Name">&quot;BlackScreen&quot;</param>
                                             <param id="1" name="Parameter {n}">1</param>
@@ -7186,7 +7221,7 @@
                                 <condition id="-14" name="Compare variable" sid="312820371581810" type="System">
                                     <param id="0" name="Variable">MenuBlasterTimer</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">1</param>
                                 </condition>
                                 <condition id="-2" name="Compare Y" sid="492171052778732" type="PlayerHeart">
                                     <param id="0" name="Comparison">0</param>
@@ -7196,7 +7231,7 @@
                             <actions>
                                 <action id="-11" name="Subtract from" sid="258478428097346" type="System">
                                     <param id="0" name="Variable">MenuBlasterTimer</param>
-                                    <param id="1" name="Value">2</param>
+                                    <param id="1" name="Value">0.75</param>
                                 </action>
                                 <action id="0" name="Call function" sid="564092664503780" type="Function">
                                     <param id="0" name="Name">&quot;GasterBlaster&quot;</param>
@@ -7209,7 +7244,7 @@
                                 <condition id="-14" name="Compare variable" sid="373458612258977" type="System">
                                     <param id="0" name="Variable">MenuBlasterTimer</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">1</param>
                                 </condition>
                                 <condition id="-2" name="Compare Y" sid="285676050669895" type="PlayerHeart">
                                     <param id="0" name="Comparison">1</param>
@@ -7219,7 +7254,7 @@
                             <actions>
                                 <action id="-11" name="Subtract from" sid="450773432678023" type="System">
                                     <param id="0" name="Variable">MenuBlasterTimer</param>
-                                    <param id="1" name="Value">2</param>
+                                    <param id="1" name="Value">0.75</param>
                                 </action>
                                 <action id="0" name="Call function" sid="620107218909186" type="Function">
                                     <param id="0" name="Name">&quot;GasterBlaster&quot;</param>
@@ -8945,6 +8980,11 @@
                                             <param id="1" name="Comparison">3</param>
                                             <param id="2" name="Value">0</param>
                                         </condition>
+                                        <condition id="-14" name="Compare variable" sid="918184265765065" type="System">
+                                            <param id="0" name="Variable">NoDeath</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="8545346840609998" type="System">
@@ -8966,6 +9006,11 @@
                                         <condition id="-14" name="Compare variable" sid="4835213302049233" type="System">
                                             <param id="0" name="Variable">HP</param>
                                             <param id="1" name="Comparison">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="117684575727617" type="System">
+                                            <param id="0" name="Variable">NoDeath</param>
+                                            <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">0</param>
                                         </condition>
                                     </conditions>
@@ -9464,6 +9509,10 @@
                         </action>
                         <action behavior="CustomMovement" id="12" name="Set enabled" sid="9082846895447337" type="PlayerHeart">
                             <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="120545149779709" type="Function">
+                            <param id="0" name="Name">&quot;MenuBonesOff&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action id="-8" name="Set angle" sid="2488884281163158" type="PlayerHeart">
                             <param id="0" name="Angle">90</param>
@@ -10543,9 +10592,9 @@
                         <event-block sid="618240113740893">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="325445934658033" type="System">
-                                    <param id="0" name="Variable">Music_Select</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">4</param>
+                                    <param id="0" name="Variable">Mute_Music</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -10668,38 +10717,23 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="794221951953745">
-                    <conditions>
-                        <condition id="0" name="On function" sid="327392273286308" type="Function">
-                            <param id="0" name="Name">&quot;afterblasterring&quot;</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="769229640086658" type="System">
-                            <param id="0" name="Variable">SimulatorMode</param>
-                            <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">MODE_NORMAL</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="540499364539708" type="Function">
-                            <param id="0" name="Name">&quot;EndAttack&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="318528837634860">
                     <conditions>
                         <condition id="0" name="On function" sid="799763877675700" type="Function">
                             <param id="0" name="Name">&quot;afterblasterring&quot;</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="698630813322489" type="System">
-                            <param id="0" name="Variable">SimulatorMode</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">MODE_NORMAL</param>
-                        </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="683430033855659" type="Function">
+                            <param id="0" name="Name">&quot;SansSweat&quot;</param>
+                            <param id="1" name="Parameter {n}">3</param>
+                        </action>
                         <action id="6" name="Stop" sid="118402835867707" type="Audio">
                             <param id="0" name="Tag">&quot;Music&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="596050612511583" type="Function">
+                            <param id="0" name="Name">&quot;SansAnimation&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;Tired&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="142274564989338" type="Function">
                             <param id="0" name="Name">&quot;SansText&quot;</param>
@@ -10709,7 +10743,6 @@
                             <param id="0" name="Animation">&quot;Tired1&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="370844229484882" type="SpeechBubble" />
                     </actions>
                 </event-block>
                 <event-block sid="956762194271877">
@@ -10721,7 +10754,7 @@
                     <actions>
                         <action id="0" name="Call function" sid="110162964966843" type="Function">
                             <param id="0" name="Name">&quot;SansText&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;thats... quite tiring&quot;{###}&quot;afterblasterring3&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;thats... uh... quite tiring&quot;{###}&quot;afterblasterring3&quot;</param>
                         </action>
                         <action id="-9" name="Destroy" sid="758184095250078" type="SpeechBubble" />
                         <action id="4" name="Set animation" sid="236126485337588" type="SansHead">
@@ -10737,27 +10770,147 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="389265465467522" type="SpeechBubble" />
-                        <action id="0" name="Call function" sid="638553076291915" type="Function">
-                            <param id="0" name="Name">&quot;SansAnimation&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Tired&quot;</param>
+                        <action id="-9" name="Destroy" sid="624172234304008" type="SpeechBubble" />
+                        <action id="0" name="Call function" sid="541033726377841" type="Function">
+                            <param id="0" name="Name">&quot;TLResume&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
-                        <action id="4" name="Set animation" sid="116825629736494" type="SansHead">
-                            <param id="0" name="Animation">&quot;ClosedEyes&quot;</param>
-                            <param id="1" name="From">1</param>
+                    </actions>
+                </event-block>
+                <event-block sid="633941730157985">
+                    <conditions>
+                        <condition id="0" name="On function" sid="132940886303475" type="Function">
+                            <param id="0" name="Name">&quot;afterblasterring4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="674695773934320" type="Function">
+                            <param id="0" name="Name">&quot;SansText&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;alright, you asked for it.&quot;{###}&quot;afterblasterring3&quot;</param>
                         </action>
-                        <action id="0" name="Call function" sid="364883672771236" type="Function">
-                            <param id="0" name="Name">&quot;SansSweat&quot;</param>
-                            <param id="1" name="Parameter {n}">0</param>
-                        </action>
-                        <action id="0" name="Call function" sid="159442431241329" type="Function">
+                    </actions>
+                </event-block>
+                <event-block sid="331860123151906">
+                    <conditions>
+                        <condition id="0" name="On function" sid="272169664771239" type="Function">
+                            <param id="0" name="Name">&quot;afterblasterring5&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="389764555320987" type="Function">
                             <param id="0" name="Name">&quot;EndAttack&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
-                        <action id="-10" name="Set value" sid="421304956466045" type="CombatZone">
+                        <action id="-10" name="Set value" sid="173527707963635" type="CombatZone">
                             <param id="0" name="Instance variable">InfoText</param>
                             <param id="1" name="Value">&quot;* Sans is sleeping.&quot;</param>
                         </action>
+                    </actions>
+                </event-block>
+                <event-block sid="185322179924954">
+                    <conditions>
+                        <condition id="0" name="On function" sid="682899533952719" type="Function">
+                            <param id="0" name="Name">&quot;IntroDialogue&quot;</param>
+                        </condition>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="274222647867337" type="System">
+                            <param id="0" name="Variable">HP</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MaxHP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="962517990148206" type="Function">
+                            <param id="0" name="Name">&quot;SansSweat&quot;</param>
+                            <param id="1" name="Parameter {n}">3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="353630264974818" type="SansHead">
+                            <param id="0" name="Animation">&quot;Tired2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="777841440103347" type="Function">
+                            <param id="0" name="Name">&quot;SansText&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;hey, listen.&quot; &amp; newline &amp; &quot;let&apos;s quit fighting, ok?&quot;{###}&quot;IntroDialogue2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="167090335143457">
+                    <conditions>
+                        <condition id="0" name="On function" sid="848484338522855" type="Function">
+                            <param id="0" name="Name">&quot;IntroDialogue&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="411044577334190" type="System">
+                            <param id="0" name="Variable">HP</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MaxHP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="489013469799571" type="Function">
+                            <param id="0" name="Name">&quot;SansSweat&quot;</param>
+                            <param id="1" name="Parameter {n}">2</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="551719870109470" type="SansHead">
+                            <param id="0" name="Animation">&quot;Tired2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="368908232443003" type="Function">
+                            <param id="0" name="Name">&quot;SansText&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;huff... puff....&quot; &amp; newline &amp; &quot;not even a scratch?&quot;{###}&quot;IntroDialogue2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="725465276215818">
+                    <conditions>
+                        <condition id="0" name="On function" sid="218460880070323" type="Function">
+                            <param id="0" name="Name">&quot;IntroDialogue2&quot;</param>
+                        </condition>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="206600200954552" type="System">
+                            <param id="0" name="Variable">HP</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MaxHP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="249775500393666" type="SansSweat">
+                            <param id="0" name="Animation">&quot;Sweat1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="380307790323341" type="SansHead">
+                            <param id="0" name="Animation">&quot;LookLeft&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="377608725990605" type="Function">
+                            <param id="0" name="Name">&quot;SansText&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;heh, just kidding.&quot;{###}&quot;EndSansText&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="220062159861818" type="SpeechBubble" />
+                    </actions>
+                </event-block>
+                <event-block sid="834316255342507">
+                    <conditions>
+                        <condition id="0" name="On function" sid="821703215040856" type="Function">
+                            <param id="0" name="Name">&quot;IntroDialogue2&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="998144428039672" type="System">
+                            <param id="0" name="Variable">HP</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MaxHP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="494434793909074" type="SansSweat">
+                            <param id="0" name="Animation">&quot;Sweat1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="696920727848050" type="SansHead">
+                            <param id="0" name="Animation">&quot;NoCare&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="608325959998037" type="Function">
+                            <param id="0" name="Name">&quot;SansText&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;this is...&quot; &amp; newline &amp; &quot;this is gonna be harder&quot; &amp; newline &amp; &quot;than i thought&quot;{###}&quot;EndSansText&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="783506735104221" type="SpeechBubble" />
                     </actions>
                 </event-block>
                 <event-block sid="524783966051961">
@@ -10891,7 +11044,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="326883641811496" type="Function">
                                     <param id="0" name="Name">&quot;SansText&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Welp&quot;{###}&quot;Dialogue2&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;welp&quot;{###}&quot;Dialogue2&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -10906,7 +11059,7 @@
                             <actions>
                                 <action id="0" name="Call function" sid="260698824032906" type="Function">
                                     <param id="0" name="Name">&quot;SansText&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Don&apos;t bother asking for&quot; &amp; newline &amp; &quot;mercy.&quot;{###}&quot;Dialogue2&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;don&apos;t bother asking for&quot; &amp; newline &amp; &quot;mercy.&quot;{###}&quot;Dialogue2&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -11020,7 +11173,7 @@
                             <actions>
                                 <action id="0" name="Call function" sid="171735070067310" type="Function">
                                     <param id="0" name="Name">&quot;SansText&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Here geos nothing&quot;{###}&quot;Dialogue3&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;here goes nothing&quot;{###}&quot;Dialogue3&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
