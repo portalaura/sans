@@ -12,10 +12,10 @@
 0,heartmode,0
 0,Sound,Ding,,,,,,,
 0,SansAnimation,Idle
-1,bonestab,0,30,0.6,7
-0.1,bonestab,1,30,0.6,6.9
-0.1,bonestab,2,30,0.5,6.8
-0.1,bonestab,3,30,0.4,6.7
+1,bonestab,0,30,0.5,5
+0.1,bonestab,1,30,0.5,5
+0.1,bonestab,2,30,0.5,5
+0.1,bonestab,3,30,0.5,5
 1,GetHeartPos,HeartX,HeartY
 0,Angle,ang,100,200,$HeartX,$HeartY
 0,gasterblaster,0,800,300,100,200,$ang,0.5,0.3

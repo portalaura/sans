@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1609878604,
+	"version": 1610303429,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -79,6 +79,7 @@
 		"media/mus_zz_slacker2.ogg",
 		"media/refused to give up.ogg",
 		"media/phase 2 megalo.ogg",
+		"media/megalovania hardmode.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
