@@ -79,7 +79,7 @@
 0.05,bonestab,0,50,0.5,0.2
 0.05,bonestab,2,50,0.5,0.2
 0.5,Sansanimation,Tired
-0.5,IntroDialogue
+0.5,Dialogue,1,Intro Dialogue
 0,SansAnimation,Idle
 0,SansHead,NoEyes
 0,endattack
