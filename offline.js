@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1610826376,
+	"version": 1611477196,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -74,9 +74,6 @@
 		"media/battletext.ogg",
 		"media/playerheal.ogg",
 		"media/gasterblast2.ogg",
-		"media/mus_zz_megalovania.ogg",
-		"media/mus_zz_slacker.ogg",
-		"media/mus_zz_slacker2.ogg",
 		"media/refused to give up.ogg",
 		"media/phase 2 megalo.ogg",
 		"media/megalovania hardmode.ogg",
