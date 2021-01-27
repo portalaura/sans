@@ -1,5 +1,5 @@
 0,CombatZoneResize,209,256,434,391,TLResume
-0,HeartTeleport,320,304,,,,,,
+0,HeartTeleport,320,376,,,,,,
 0,HeartMode,1
 0,TLPause
 0,SineBones,300,-15,130,40
@@ -16,4 +16,5 @@
 0,HeartMaxFallSpeed,100
 0.5,SansBody,HandLeft
 0,sansslam,2
-5,EndAttack
+2,SansAnimation,Idle
+3,EndAttack
