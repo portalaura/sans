@@ -43,20 +43,20 @@
 0.2,bonestab,2,20,0.2,0.2
 0,bonestab,0,85,0.2,0.2
 0.2,Sansanimation,Idle
-0.5,SineBones,50,35,540,40
-0,CombatZoneSpeed,75
-0,HeartMaxFallSpeed,500
+0.5,SineBones,80,35,540,40
+0,CombatZoneSpeed,250
+0,HeartMaxFallSpeed,350
 0.6,sansslam,0
-0,CombatZoneResize,400,251,550,391,
+0,CombatZoneResize,379,251,521,391,
 0,SansBody,Handright
-0.6,sansslam,2
-0,CombatZoneResize,50,251,200,391,
+1,sansslam,2
+0,CombatZoneResize,100,251,250,391,
 0,SansBody,Handleft
-0.6,sansslam,0
-0,CombatZoneResize,400,251,550,391,
+1.5,sansslam,0
+0,CombatZoneResize,379,251,521,391,
 0,SansBody,Handright
-0.6,sansslam,2
-0,CombatZoneResize,50,251,200,391,
+1.5,sansslam,2
+0,CombatZoneResize,250,251,400,391,
 0,SansBody,Handleft
 0.2,Sansanimation,Idle
 1,HeartMaxFallSpeed,750
@@ -88,5 +88,5 @@
 0.5,Sansanimation,Tired
 0.5,Dialogue,1,Intro Dialogue
 0,SansAnimation,Idle
-0,SansHead,NoEyes
+0,SansHead,Default
 0,endattack

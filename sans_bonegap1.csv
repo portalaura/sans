@@ -8,7 +8,7 @@
 0,sansbody,handdown
 0,sansslam,1
 0.2,bonestab,1,30,0.3,6.7
-0.2,sanshead,noeyes
+0.2,sanshead,default
 0,heartmode,0
 0,Sound,Ding,,,,,,,
 0,SansAnimation,Idle

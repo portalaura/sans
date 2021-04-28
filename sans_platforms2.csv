@@ -2,7 +2,7 @@
 0,HeartTeleport,320,376,,,,,,
 0,HeartMode,1
 0,TLPause
-0,SineBones,300,-15,130,40
+0.1,SineBones,300,-15,130,40
 0,PlatformRepeat,135,360,30,0,130,5,283
 10,sound,Ding,,,
 0.5,sound,Ding,,,
@@ -17,4 +17,5 @@
 0.5,SansBody,HandLeft
 0,sansslam,2
 2,SansAnimation,Idle
-3,EndAttack
+3,HeartMode,0
+0,EndAttack

@@ -9,7 +9,7 @@
 0,bonevrepeat,128,350,40,0,150,7,300
 0,bonevrepeat,503,250,40,2,150,7,300
 0,bonevrepeat,503,350,40,2,150,7,300
-0.5,sanshead,noeyes
+0.5,sanshead,default
 0,sansanimation,Idle
 0,heartmaxfallspeed,300
 3,sansslam,3
