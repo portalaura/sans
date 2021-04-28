@@ -531,17 +531,17 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-28" name="Set effect parameter" sid="890251368671725" type="DefaultFont">
+                                <action id="-28" name="Set effect parameter" sid="122644321685054" type="DefaultFont">
                                     <param id="0" name="Effect">&quot;Tint&quot;</param>
                                     <param id="1" name="Parameter index">0</param>
                                     <param id="2" name="Value">100</param>
                                 </action>
-                                <action id="-28" name="Set effect parameter" sid="877224120573125" type="DefaultFont">
+                                <action id="-28" name="Set effect parameter" sid="685767517094260" type="DefaultFont">
                                     <param id="0" name="Effect">&quot;Tint&quot;</param>
                                     <param id="1" name="Parameter index">1</param>
                                     <param id="2" name="Value">100</param>
                                 </action>
-                                <action id="-28" name="Set effect parameter" sid="459371948881107" type="DefaultFont">
+                                <action id="-28" name="Set effect parameter" sid="211645615774876" type="DefaultFont">
                                     <param id="0" name="Effect">&quot;Tint&quot;</param>
                                     <param id="1" name="Parameter index">2</param>
                                     <param id="2" name="Value">0</param>
