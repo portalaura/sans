@@ -4,6 +4,7 @@
 0,HeartMode,0,,,,,,
 0,TLPause,,,,,,,
 0.2,sansslam,0
+0,SansHead,GoneMadOrangeEye
 0,BoneStab,0,30,0.4,0
 0.4,sansslam,3
 0,BoneStab,3,30,0.4,0
@@ -15,16 +16,17 @@
 0,add,endx,$endx,20
 0,sub,loop,$loop,1
 0.05,gasterblaster,0,$endx,0,$endx,186,90,0,0
-0,JMPNZ,15,$loop
+0,JMPNZ,16,$loop
 0.2,heartmode,0
 0.2,set,loop,6
 0,set,endy,396
 0,sub,endy,$endy,20
 0,sub,loop,$loop,1
 0.085,gasterblaster,0,0,$endy,219,$endy,0,0,0
-0,JMPNZ,22,$loop
+0,JMPNZ,23,$loop
 0,gasterblaster,0,640,0,424,206,135,0.2,0
 0.5,sansslam,3
+0,SansHead,GoneMad
 0,CombatZoneResize,209,226,404,391,TLResume,,,
 0,bonevrepeat,196,229,30,0,200,5,15
 1,bonevrepeat,414,229,30,2,230,7,100
