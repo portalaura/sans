@@ -170,10 +170,13 @@
                         </action>
                         <action id="-9" name="Destroy" sid="410201502281860" type="MenuItem" />
                         <action id="-9" name="Destroy" sid="617091790140524" type="DefaultFont" />
+                        <action id="-15" name="Set visible" sid="870074176294635" type="PlayerHeart">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                         <action id="-3" name="Create object" sid="336777857582025" type="System">
                             <param id="0" name="Object to create">MenuItem</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">32</param>
+                            <param id="2" name="X">120</param>
                             <param id="3" name="Y">140</param>
                         </action>
                         <action id="-10" name="Set value" sid="232660299860108" type="MenuItem">
@@ -182,16 +185,16 @@
                         </action>
                         <action id="-10" name="Set value" sid="344197306811649" type="MenuItem">
                             <param id="0" name="Instance variable">Text</param>
-                            <param id="1" name="Value">&quot;Phase 2 Music by Case&quot;</param>
+                            <param id="1" name="Value">&quot;Music&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="450071348780117" type="MenuItem">
                             <param id="0" name="Instance variable">Action</param>
-                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
+                            <param id="1" name="Value">&quot;CreditMusic&quot;</param>
                         </action>
                         <action id="-3" name="Create object" sid="815641346485724" type="System">
                             <param id="0" name="Object to create">DefaultFont</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="2" name="X">64</param>
                             <param id="3" name="Y">MenuItem.Y</param>
                         </action>
                         <action id="-7" name="Set size" sid="380880476399679" type="DefaultFont">
@@ -207,65 +210,28 @@
                         <action id="7" name="Set horizontal alignment" sid="174320047163416" type="DefaultFont">
                             <param id="0" name="Horizontal alignment">1</param>
                         </action>
-                        <action id="-3" name="Create object" sid="664908261899523" type="System">
-                            <param id="0" name="Object to create">MenuItem</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">32</param>
-                            <param id="3" name="Y">174</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="323456438738580" type="MenuItem">
-                            <param id="0" name="Instance variable">ID</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="637240402753615" type="MenuItem">
-                            <param id="0" name="Instance variable">Text</param>
-                            <param id="1" name="Value">&quot;Phase 1.5 music by Choma41&quot;</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="108341799209890" type="MenuItem">
-                            <param id="0" name="Instance variable">Action</param>
-                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
-                        </action>
-                        <action id="-3" name="Create object" sid="323025727014398" type="System">
-                            <param id="0" name="Object to create">DefaultFont</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">MenuItem.X + 32</param>
-                            <param id="3" name="Y">MenuItem.Y</param>
-                        </action>
-                        <action id="-7" name="Set size" sid="169270707881662" type="DefaultFont">
-                            <param id="0" name="Width">512</param>
-                            <param id="1" name="Height">96</param>
-                        </action>
-                        <action id="2" name="Set scale" sid="613025763081406" type="DefaultFont">
-                            <param id="0" name="Scale">2</param>
-                        </action>
-                        <action id="0" name="Set text" sid="202296245079124" type="DefaultFont">
-                            <param id="0" name="Text">MenuItem.Text</param>
-                        </action>
-                        <action id="7" name="Set horizontal alignment" sid="203827090063791" type="DefaultFont">
-                            <param id="0" name="Horizontal alignment">1</param>
-                        </action>
                         <action id="-3" name="Create object" sid="802158648446548" type="System">
                             <param id="0" name="Object to create">MenuItem</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">32</param>
-                            <param id="3" name="Y">208</param>
+                            <param id="2" name="X">120</param>
+                            <param id="3" name="Y">174</param>
                         </action>
                         <action id="-10" name="Set value" sid="369230185177026" type="MenuItem">
                             <param id="0" name="Instance variable">ID</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-10" name="Set value" sid="149492766378402" type="MenuItem">
                             <param id="0" name="Instance variable">Text</param>
-                            <param id="1" name="Value">&quot;Megalovania Hard Mode by Divide&quot;</param>
+                            <param id="1" name="Value">&quot;Dev Team&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="490952264270424" type="MenuItem">
                             <param id="0" name="Instance variable">Action</param>
-                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
+                            <param id="1" name="Value">&quot;CreditTeam&quot;</param>
                         </action>
                         <action id="-3" name="Create object" sid="914797802723392" type="System">
                             <param id="0" name="Object to create">DefaultFont</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="2" name="X">64</param>
                             <param id="3" name="Y">MenuItem.Y</param>
                         </action>
                         <action id="-7" name="Set size" sid="624583497168196" type="DefaultFont">
@@ -284,12 +250,12 @@
                         <action id="-3" name="Create object" sid="725296493151471" type="System">
                             <param id="0" name="Object to create">MenuItem</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">32</param>
+                            <param id="2" name="X">120</param>
                             <param id="3" name="Y">242</param>
                         </action>
                         <action id="-10" name="Set value" sid="361841771808020" type="MenuItem">
                             <param id="0" name="Instance variable">ID</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                         <action id="-10" name="Set value" sid="958082184120028" type="MenuItem">
                             <param id="0" name="Instance variable">Text</param>
@@ -302,7 +268,7 @@
                         <action id="-3" name="Create object" sid="550601216170045" type="System">
                             <param id="0" name="Object to create">DefaultFont</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="2" name="X">64</param>
                             <param id="3" name="Y">MenuItem.Y</param>
                         </action>
                         <action id="-7" name="Set size" sid="143200994993584" type="DefaultFont">
@@ -321,12 +287,12 @@
                         <action id="-3" name="Create object" sid="673663801350595" type="System">
                             <param id="0" name="Object to create">MenuItem</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">32</param>
+                            <param id="2" name="X">120</param>
                             <param id="3" name="Y">276</param>
                         </action>
                         <action id="-10" name="Set value" sid="958729969777536" type="MenuItem">
                             <param id="0" name="Instance variable">ID</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">3</param>
                         </action>
                         <action id="-10" name="Set value" sid="224716621111710" type="MenuItem">
                             <param id="0" name="Instance variable">Text</param>
@@ -339,7 +305,7 @@
                         <action id="-3" name="Create object" sid="360709307183211" type="System">
                             <param id="0" name="Object to create">DefaultFont</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="2" name="X">64</param>
                             <param id="3" name="Y">MenuItem.Y</param>
                         </action>
                         <action id="-7" name="Set size" sid="279934412824470" type="DefaultFont">
@@ -357,18 +323,195 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="702793669872134">
+                    <conditions>
+                        <condition id="0" name="On function" sid="283297031608707" type="Function">
+                            <param id="0" name="Name">&quot;CreditMusic&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="500893839461158" type="Function">
+                            <param id="0" name="Name">&quot;MenuBackAction&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;MenuCredits&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="663234161716353" type="MenuItem" />
+                        <action id="-9" name="Destroy" sid="386578028555735" type="DefaultFont" />
+                        <action id="-3" name="Create object" sid="408261779311979" type="System">
+                            <param id="0" name="Object to create">MenuItem</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">32</param>
+                            <param id="3" name="Y">140</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="911645722468941" type="MenuItem">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="337938237364841" type="MenuItem">
+                            <param id="0" name="Instance variable">Text</param>
+                            <param id="1" name="Value">&quot;Phase 2 Music by Case&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="313545704786687" type="MenuItem">
+                            <param id="0" name="Instance variable">Action</param>
+                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="832881681526877" type="System">
+                            <param id="0" name="Object to create">DefaultFont</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="3" name="Y">MenuItem.Y</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="639945073236265" type="DefaultFont">
+                            <param id="0" name="Width">512</param>
+                            <param id="1" name="Height">96</param>
+                        </action>
+                        <action id="2" name="Set scale" sid="674391543239578" type="DefaultFont">
+                            <param id="0" name="Scale">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="785987800747470" type="DefaultFont">
+                            <param id="0" name="Text">MenuItem.Text</param>
+                        </action>
+                        <action id="7" name="Set horizontal alignment" sid="218252784848763" type="DefaultFont">
+                            <param id="0" name="Horizontal alignment">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="857773531130287" type="System">
+                            <param id="0" name="Object to create">MenuItem</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">32</param>
+                            <param id="3" name="Y">174</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="237684620610520" type="MenuItem">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="779444567720621" type="MenuItem">
+                            <param id="0" name="Instance variable">Text</param>
+                            <param id="1" name="Value">&quot;Phase 1.5 Music by Choma14&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="996082682748448" type="MenuItem">
+                            <param id="0" name="Instance variable">Action</param>
+                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="858272655954849" type="System">
+                            <param id="0" name="Object to create">DefaultFont</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="3" name="Y">MenuItem.Y</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="525047799516705" type="DefaultFont">
+                            <param id="0" name="Width">512</param>
+                            <param id="1" name="Height">96</param>
+                        </action>
+                        <action id="2" name="Set scale" sid="801778079228011" type="DefaultFont">
+                            <param id="0" name="Scale">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="984539241324206" type="DefaultFont">
+                            <param id="0" name="Text">MenuItem.Text</param>
+                        </action>
+                        <action id="7" name="Set horizontal alignment" sid="246572701316432" type="DefaultFont">
+                            <param id="0" name="Horizontal alignment">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="908511966900768" type="System">
+                            <param id="0" name="Object to create">MenuItem</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">32</param>
+                            <param id="3" name="Y">208</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="400325098863269" type="MenuItem">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="859544850841247" type="MenuItem">
+                            <param id="0" name="Instance variable">Text</param>
+                            <param id="1" name="Value">&quot;Megalovania Hard Mode by Divide&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="717863557405220" type="MenuItem">
+                            <param id="0" name="Instance variable">Action</param>
+                            <param id="1" name="Value">&quot;CreditBrowser&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="431687458612155" type="System">
+                            <param id="0" name="Object to create">DefaultFont</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">MenuItem.X + 32</param>
+                            <param id="3" name="Y">MenuItem.Y</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="358054101047798" type="DefaultFont">
+                            <param id="0" name="Width">512</param>
+                            <param id="1" name="Height">96</param>
+                        </action>
+                        <action id="2" name="Set scale" sid="941901390843326" type="DefaultFont">
+                            <param id="0" name="Scale">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="254494936560979" type="DefaultFont">
+                            <param id="0" name="Text">MenuItem.Text</param>
+                        </action>
+                        <action id="7" name="Set horizontal alignment" sid="391881379339569" type="DefaultFont">
+                            <param id="0" name="Horizontal alignment">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="251851207263016">
+                    <conditions>
+                        <condition id="0" name="On function" sid="955909788549535" type="Function">
+                            <param id="0" name="Name">&quot;CreditTeam&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="711975806538147" type="Function">
+                            <param id="0" name="Name">&quot;MenuBackAction&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;MenuCredits&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="560981547127401" type="PlayerHeart">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="889504135791933" type="MenuItem" />
+                        <action id="-9" name="Destroy" sid="562581982289805" type="DefaultFont" />
+                        <action id="-3" name="Create object" sid="428913743158043" type="System">
+                            <param id="0" name="Object to create">DefaultFont</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">64</param>
+                            <param id="3" name="Y">118</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="303368602993852" type="DefaultFont">
+                            <param id="0" name="Width">512</param>
+                            <param id="1" name="Height">96</param>
+                        </action>
+                        <action id="2" name="Set scale" sid="211006914691639" type="DefaultFont">
+                            <param id="0" name="Scale">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="240210012122328" type="DefaultFont">
+                            <param id="0" name="Text">&quot;Coder/Owner - Fredo&quot;</param>
+                        </action>
+                        <action id="7" name="Set horizontal alignment" sid="331401220920760" type="DefaultFont">
+                            <param id="0" name="Horizontal alignment">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="117077811139097" type="System">
+                            <param id="0" name="Object to create">DefaultFont</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">64</param>
+                            <param id="3" name="Y">150</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="878735274245038" type="DefaultFont">
+                            <param id="0" name="Width">512</param>
+                            <param id="1" name="Height">96</param>
+                        </action>
+                        <action id="2" name="Set scale" sid="970992827233451" type="DefaultFont">
+                            <param id="0" name="Scale">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="941544535709211" type="DefaultFont">
+                            <param id="0" name="Text">&quot;Artist - JustLuke&quot;</param>
+                        </action>
+                        <action id="7" name="Set horizontal alignment" sid="287821624178829" type="DefaultFont">
+                            <param id="0" name="Horizontal alignment">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="244342586080581">
                     <conditions>
                         <condition id="0" name="On function" sid="239105233931976" type="Function">
                             <param id="0" name="Name">&quot;CreditBrowser&quot;</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="207120290890119" type="Function">
-                            <param id="0" name="Name">&quot;MenuCredits&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                    </actions>
+                    <actions />
                     <sub-events>
                         <event-block sid="201476151697504">
                             <conditions>
@@ -384,6 +527,10 @@
                                 <action id="8" name="Open URL in new window" sid="570129126829899" type="Browser">
                                     <param id="0" name="URL">&quot;https://youtu.be/PEf4-Ejn2-Y&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
+                                </action>
+                                <action id="0" name="Call function" sid="197249410929594" type="Function">
+                                    <param id="0" name="Name">&quot;CreditMusic&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
                         </event-block>
@@ -402,6 +549,10 @@
                                     <param id="0" name="URL">&quot;https://soundcloud.com/oofkey/sans-undertale-barricaded-the-end-of-all-judgement&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
                                 </action>
+                                <action id="0" name="Call function" sid="675135974286028" type="Function">
+                                    <param id="0" name="Name">&quot;CreditMusic&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="448262380209371">
@@ -418,6 +569,10 @@
                                 <action id="8" name="Open URL in new window" sid="232359085471085" type="Browser">
                                     <param id="0" name="URL">&quot;https://youtu.be/H_M8ik1lh6g?t=211&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
+                                </action>
+                                <action id="0" name="Call function" sid="475923721054392" type="Function">
+                                    <param id="0" name="Name">&quot;CreditMusic&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
                         </event-block>
@@ -436,6 +591,10 @@
                                     <param id="0" name="URL">&quot;https://soundcloud.com/dividejams/hard-mode-v3&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
                                 </action>
+                                <action id="0" name="Call function" sid="499424415221525" type="Function">
+                                    <param id="0" name="Name">&quot;CreditMusic&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="809520293447237">
@@ -453,6 +612,10 @@
                                     <param id="0" name="URL">&quot;https://undertale.com/&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
                                 </action>
+                                <action id="0" name="Call function" sid="722567157891133" type="Function">
+                                    <param id="0" name="Name">&quot;MenuCredits&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="985998702256294">
@@ -469,6 +632,10 @@
                                 <action id="8" name="Open URL in new window" sid="766001710786418" type="Browser">
                                     <param id="0" name="URL">&quot;https://github.com/Jcw87/c2-sans-fight&quot;</param>
                                     <param id="1" name="Tag">&quot;Credits&quot;</param>
+                                </action>
+                                <action id="0" name="Call function" sid="291404238807773" type="Function">
+                                    <param id="0" name="Name">&quot;MenuCredits&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
                         </event-block>
@@ -626,9 +793,61 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Call function" sid="227388006022021" type="Function">
-                                    <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                                    <param id="1" name="Parameter {n}">0{###}192{###}96{###}0{###}&quot;Mute Music&quot;{###}&quot;MuteMusic Off&quot;{###}&quot;Yellow&quot;</param>
+                                <action id="-3" name="Create object" sid="326965137273098" type="System">
+                                    <param id="0" name="Object to create">MenuItem</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">192</param>
+                                    <param id="3" name="Y">96</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="934658963241164" type="MenuItem">
+                                    <param id="0" name="Instance variable">ID</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="785901252340082" type="MenuItem">
+                                    <param id="0" name="Instance variable">Text</param>
+                                    <param id="1" name="Value">&quot;Mute Music&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="503359764076559" type="MenuItem">
+                                    <param id="0" name="Instance variable">Action</param>
+                                    <param id="1" name="Value">&quot;MuteMusic Off&quot;</param>
+                                </action>
+                                <action id="1" name="Set return value" sid="497507227984231" type="Function">
+                                    <param id="0" name="Value">MenuItem.UID</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="528192689320531" type="System">
+                                    <param id="0" name="Object to create">DefaultFont</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">MenuItem.X + 32</param>
+                                    <param id="3" name="Y">MenuItem.Y</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="985785368217195" type="DefaultFont">
+                                    <param id="0" name="Width">512</param>
+                                    <param id="1" name="Height">96</param>
+                                </action>
+                                <action id="2" name="Set scale" sid="979071581930710" type="DefaultFont">
+                                    <param id="0" name="Scale">2</param>
+                                </action>
+                                <action id="0" name="Set text" sid="386553350982733" type="DefaultFont">
+                                    <param id="0" name="Text">MenuItem.Text</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="619409144886738" type="DefaultFont">
+                                    <param id="0" name="Instance variable">Name</param>
+                                    <param id="1" name="Value">&quot;Menu&quot; &amp; MenuItem.ID</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="747397195506800" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">0</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="542386668918164" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">1</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="879805922920641" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">2</param>
+                                    <param id="2" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -656,9 +875,61 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Call function" sid="125145254767475" type="Function">
-                                    <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                                    <param id="1" name="Parameter {n}">0{###}192{###}128{###}1{###}&quot;No-Hit&quot;{###}&quot;No-Hit Off&quot;{###}&quot;Yellow&quot;</param>
+                                <action id="-3" name="Create object" sid="838845288565912" type="System">
+                                    <param id="0" name="Object to create">MenuItem</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">192</param>
+                                    <param id="3" name="Y">128</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="572852571413217" type="MenuItem">
+                                    <param id="0" name="Instance variable">ID</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="788552934860171" type="MenuItem">
+                                    <param id="0" name="Instance variable">Text</param>
+                                    <param id="1" name="Value">&quot;No-Hit&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="498669307353338" type="MenuItem">
+                                    <param id="0" name="Instance variable">Action</param>
+                                    <param id="1" name="Value">&quot;No-Hit Off&quot;</param>
+                                </action>
+                                <action id="1" name="Set return value" sid="798191468380131" type="Function">
+                                    <param id="0" name="Value">MenuItem.UID</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="190949851386077" type="System">
+                                    <param id="0" name="Object to create">DefaultFont</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">MenuItem.X + 32</param>
+                                    <param id="3" name="Y">MenuItem.Y</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="175658897657626" type="DefaultFont">
+                                    <param id="0" name="Width">512</param>
+                                    <param id="1" name="Height">96</param>
+                                </action>
+                                <action id="2" name="Set scale" sid="828491383232648" type="DefaultFont">
+                                    <param id="0" name="Scale">2</param>
+                                </action>
+                                <action id="0" name="Set text" sid="587627524766532" type="DefaultFont">
+                                    <param id="0" name="Text">MenuItem.Text</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="340992522859314" type="DefaultFont">
+                                    <param id="0" name="Instance variable">Name</param>
+                                    <param id="1" name="Value">&quot;Menu&quot; &amp; MenuItem.ID</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="335157506386575" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">0</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="813591864777062" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">1</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="408172035834641" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">2</param>
+                                    <param id="2" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -686,9 +957,61 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Call function" sid="484499408755620" type="Function">
-                                    <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                                    <param id="1" name="Parameter {n}">0{###}192{###}160{###}2{###}&quot;Instant death&quot;{###}&quot;Insta death Off&quot;{###}&quot;Yellow&quot;</param>
+                                <action id="-3" name="Create object" sid="311779668824631" type="System">
+                                    <param id="0" name="Object to create">MenuItem</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">192</param>
+                                    <param id="3" name="Y">160</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="839428293570327" type="MenuItem">
+                                    <param id="0" name="Instance variable">ID</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="655270735917608" type="MenuItem">
+                                    <param id="0" name="Instance variable">Text</param>
+                                    <param id="1" name="Value">&quot;Instant death&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="243955955605644" type="MenuItem">
+                                    <param id="0" name="Instance variable">Action</param>
+                                    <param id="1" name="Value">&quot;Insta death Off&quot;</param>
+                                </action>
+                                <action id="1" name="Set return value" sid="833966888167365" type="Function">
+                                    <param id="0" name="Value">MenuItem.UID</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="501799481057510" type="System">
+                                    <param id="0" name="Object to create">DefaultFont</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">MenuItem.X + 32</param>
+                                    <param id="3" name="Y">MenuItem.Y</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="983727248433826" type="DefaultFont">
+                                    <param id="0" name="Width">512</param>
+                                    <param id="1" name="Height">96</param>
+                                </action>
+                                <action id="2" name="Set scale" sid="130389442618531" type="DefaultFont">
+                                    <param id="0" name="Scale">2</param>
+                                </action>
+                                <action id="0" name="Set text" sid="580814732102877" type="DefaultFont">
+                                    <param id="0" name="Text">MenuItem.Text</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="858102884439315" type="DefaultFont">
+                                    <param id="0" name="Instance variable">Name</param>
+                                    <param id="1" name="Value">&quot;Menu&quot; &amp; MenuItem.ID</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="640925209446364" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">0</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="232777463646852" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">1</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="441956237439569" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">2</param>
+                                    <param id="2" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -716,9 +1039,61 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Call function" sid="865163710351473" type="Function">
-                                    <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                                    <param id="1" name="Parameter {n}">0{###}192{###}192{###}3{###}&quot;No death&quot;{###}&quot;No Death Off&quot;{###}&quot;Yellow&quot;</param>
+                                <action id="-3" name="Create object" sid="368765213711642" type="System">
+                                    <param id="0" name="Object to create">MenuItem</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">192</param>
+                                    <param id="3" name="Y">192</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="296314034183953" type="MenuItem">
+                                    <param id="0" name="Instance variable">ID</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="424232645792573" type="MenuItem">
+                                    <param id="0" name="Instance variable">Text</param>
+                                    <param id="1" name="Value">&quot;No death&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="216729397834219" type="MenuItem">
+                                    <param id="0" name="Instance variable">Action</param>
+                                    <param id="1" name="Value">&quot;No Death Off&quot;</param>
+                                </action>
+                                <action id="1" name="Set return value" sid="191523005127301" type="Function">
+                                    <param id="0" name="Value">MenuItem.UID</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="240578216799830" type="System">
+                                    <param id="0" name="Object to create">DefaultFont</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">MenuItem.X + 32</param>
+                                    <param id="3" name="Y">MenuItem.Y</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="501833220613280" type="DefaultFont">
+                                    <param id="0" name="Width">512</param>
+                                    <param id="1" name="Height">96</param>
+                                </action>
+                                <action id="2" name="Set scale" sid="717626552513408" type="DefaultFont">
+                                    <param id="0" name="Scale">2</param>
+                                </action>
+                                <action id="0" name="Set text" sid="243977287998710" type="DefaultFont">
+                                    <param id="0" name="Text">MenuItem.Text</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="536959204944695" type="DefaultFont">
+                                    <param id="0" name="Instance variable">Name</param>
+                                    <param id="1" name="Value">&quot;Menu&quot; &amp; MenuItem.ID</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="856168500287520" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">0</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="435284536985192" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">1</param>
+                                    <param id="2" name="Value">100</param>
+                                </action>
+                                <action id="-28" name="Set effect parameter" sid="513481968830572" type="DefaultFont">
+                                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                                    <param id="1" name="Parameter index">2</param>
+                                    <param id="2" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1010,7 +1385,7 @@
                         </action>
                         <action id="0" name="Call function" sid="908362213075170" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}96{###}0{###}&quot;The Start of bad time&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}96{###}0{###}&quot;The Start of Bad Time&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="236621501690646" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
@@ -1030,7 +1405,7 @@
                         </action>
                         <action id="0" name="Call function" sid="389036056547827" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}256{###}5{###}&quot;Bone barrage&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}256{###}5{###}&quot;Bone Barrage&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="699421519348715" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
@@ -1038,23 +1413,27 @@
                         </action>
                         <action id="0" name="Call function" sid="740842659333173" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}320{###}7{###}&quot;Start of Phase 2&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}320{###}7{###}&quot;The Start of a Worse Time&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="835358924610118" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}352{###}8{###}&quot;2nd attack of Phase 2&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}352{###}8{###}&quot;More Chaos&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="238841723001077" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}384{###}9{###}&quot;3rd attack of Phase 2&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}384{###}9{###}&quot;Bones and Platforms&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="904663139144776" type="Function">
+                            <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}416{###}10{###}&quot;Hell of Judgment&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="992270735736252" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}416{###}10{###}&quot;Heal Attack&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}448{###}11{###}&quot;Heal Attack&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="743804618256727" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}448{###}11{###}&quot;Heal Attack 2&quot;{###}&quot;MenuSingleAttack&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}480{###}12{###}&quot;Heal Attack 2&quot;{###}&quot;MenuSingleAttack&quot;</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1130,7 +1509,7 @@
                         </action>
                         <action id="0" name="Call function" sid="131065348070977" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
-                            <param id="1" name="Parameter {n}">0{###}192{###}96{###}0{###}&quot;Documentation&quot;{###}&quot;&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}192{###}96{###}0{###}&quot;Documentation&quot;{###}&quot;MenuDocumentation&quot;</param>
                         </action>
                         <action id="0" name="Call function" sid="363254892081796" type="Function">
                             <param id="0" name="Name">&quot;CreateMenuItem&quot;</param>
@@ -1164,6 +1543,26 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="104744943591494">
+                    <conditions>
+                        <condition id="0" name="On function" sid="739045636398136" type="Function">
+                            <param id="0" name="Name">&quot;MenuDocumentation&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="268617016176352" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="8" name="Open URL in new window" sid="319490187335239" type="Browser">
+                            <param id="0" name="URL">&quot;https://github.com/Omegafredo/worst-time-simulator/wiki&quot;</param>
+                            <param id="1" name="Tag">&quot;Wiki&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="410067343334539" type="Function">
+                            <param id="0" name="Name">&quot;MenuModeCustom&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="9054944955083307">
                     <conditions>
@@ -1293,9 +1692,6 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Preload" sid="477193155050507" type="Audio">
-                                    <param id="0" name="Audio file">Logo Appearing</param>
-                                </action>
                                 <action id="-16" name="Wait" sid="550839909223751" type="System">
                                     <param id="0" name="Seconds">1.0</param>
                                 </action>

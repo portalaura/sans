@@ -264,6 +264,7 @@
                         <DodgeTimer>0</DodgeTimer>
                         <JustDodged>false</JustDodged>
                         <XSpeed>0</XSpeed>
+                        <Turns>0</Turns>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -685,15 +686,6 @@
                     <y-amplitude>0</y-amplitude>
                     <y-frequency>0</y-frequency>
                     <y-speed>0</y-speed>
-                </parameters>
-            </effect-instance>
-        </effect-type>
-        <effect-type name="ScreenFlip">
-            <effect id="swirl" />
-            <effect-instance type="ScreenFlip">
-                <parameters>
-                    <angle>0</angle>
-                    <radius>1000</radius>
                 </parameters>
             </effect-instance>
         </effect-type>

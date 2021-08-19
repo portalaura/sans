@@ -806,7 +806,7 @@
                             <actions>
                                 <action id="0" name="Add key" sid="159151182483340" type="TLVars">
                                     <param id="0" name="Key">Function.Param(0)</param>
-                                    <param id="1" name="Value">HP</param>
+                                    <param id="1" name="Value">HP - KR</param>
                                 </action>
                                 <action id="0" name="Add key" sid="738525140533805" type="TLVars">
                                     <param id="0" name="Key">Function.Param(1)</param>

@@ -12,6 +12,9 @@
                         <condition id="4" name="Is empty" sid="6716366940052336" type="AttackList" />
                     </conditions>
                     <actions>
+                        <action id="4" name="Preload" sid="105131912260355" type="Audio">
+                            <param id="0" name="Audio file">Logo Appearing</param>
+                        </action>
                         <action id="5" name="Push" sid="4534521751290753" type="AttackLoader">
                             <param id="0" name="Where">0</param>
                             <param id="1" name="Value">&quot;sans_intro&quot;</param>
@@ -62,6 +65,11 @@
                             <param id="1" name="Value">&quot;sans_multi2&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
+                        <action id="5" name="Push" sid="375272527352408" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;sans_bonestab1&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
                         <action id="5" name="Push" sid="974994622690454" type="AttackLoader">
                             <param id="0" name="Where">0</param>
                             <param id="1" name="Value">&quot;sans_healattack&quot;</param>
@@ -90,11 +98,6 @@
                         <action id="5" name="Push" sid="5059129090672449" type="AttackLoader">
                             <param id="0" name="Where">0</param>
                             <param id="1" name="Value">&quot;sans_boneslidev&quot;</param>
-                            <param id="2" name="Axis">0</param>
-                        </action>
-                        <action id="5" name="Push" sid="375272527352408" type="AttackLoader">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_bonestab1&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="4170005015431915" type="AttackLoader">

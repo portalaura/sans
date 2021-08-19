@@ -5,6 +5,7 @@
 0,HeartMode,0,,,,,,,
 0,TLPause
 0,sansslam,3
+0,SansHead,GoneMadOrangeEye
 0.1,gasterblaster,0,0,296,219,296,0,0,0.2
 0.1,gasterblaster,0,0,316,219,316,0,0,0.2
 0.1,gasterblaster,0,0,336,219,336,0,0,0.2
@@ -16,7 +17,7 @@
 0,add,endx,$endx,20
 0,sub,loop,$loop,1
 0.05,gasterblaster,0,$endx,0,$endx,186,90,0,0.2
-0,JMPNZ,16,$loop
+0,JMPNZ,17,$loop
 0.05,gasterblaster,0,389,0,389,186,90,0,0.2
 0.55,gasterblaster,0,369,0,369,186,90,0,0.2
 0.11,sansslam,1
@@ -41,13 +42,14 @@
 0,Angle,Ang,$EndX,$EndY,$HeartX,$HeartY
 0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0
 0,ADD,gt,$gt,5,,,,,
-0.05,JMPL,29,$gt,34,,,,,
+0.05,JMPL,30,$gt,34,,,,,
 0,GetHeartPos,HeartX,HeartY
 0,GasterBlaster,0,0,$HeartY,200,$HeartY,0,0.5,0
 0,GasterBlaster,0,640,$HeartY,460,$HeartY,180,0.5,0
 0,GasterBlaster,0,$HeartX,0,$HeartX,186,90,0.5,0
-0.8,JMPNZ,27,$Loop
+0.8,JMPNZ,28,$Loop
 0.5,sansslam,3
+0,Sanshead,GoneMad
 0.3,CombatZoneResizeInstant,250,221,400,391
 0,SineBones,100,30,450,40
 0,CombatZoneResizeInstant,250,251,400,391

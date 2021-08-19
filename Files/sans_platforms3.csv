@@ -19,8 +19,9 @@
 0,JMPNL,21,$gin,1.7,,,,,
 0,ADD,gin,$gin,0.015,,,,,
 0.06666,JMPL,5,$gt,36,,,,,
+0,sanshead,BlueEye
 0,SET,Loop,10,,,
-0,JMPZ,46,$Loop,,,
+0,JMPZ,47,$Loop,,,
 0,SUB,Loop,$Loop,1,,
 0,RND,Direction,4,,,
 0,ADD,Jump,$Direction,1,,
@@ -42,7 +43,7 @@
 0,BoneStab,1,30,0.2
 0,BoneStab,2,30,0.2
 0,BoneStab,3,30,0.2
-0.15,JMPABS,23,,,,
+0.15,JMPABS,24,,,,
 0,SansAnimation,Idle
 0,heartmode,0
 1,bonevrepeat,229,216,45,0,240,140,15
@@ -65,10 +66,11 @@
 0,ADD,Ang,$Ang,180,,,,,
 0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0
 0,ADD,gt,$gt,$gin,,,,,
-0,JMPNL,70,$gin,2.3,,,,,
+0,JMPNL,71,$gin,2.3,,,,,
 0,ADD,gin,$gin,0.015,,,,,
-0.06666,JMPL,54,$gt,220,,,,,
+0.06666,JMPL,55,$gt,220,,,,,
 0,sanssweat,2
+0,SansHead,Tired1
 0,Set,Timer,0.1
 0,SET,gin,2.3,,,,,,
 0,MUL,Ang,$gt,-10,,,,,
@@ -85,11 +87,11 @@
 0,ADD,Ang,$Ang,180,,,,,
 0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.5,0.1
 0,ADD,gt,$gt,$gin,,,,,
-0,JMPG,90,$Gin,3.5
+0,JMPG,92,$Gin,3.5
 0,ADD,gin,$gin,0.05
-0,JMPG,92,$Timer,0.35
+0,JMPG,94,$Timer,0.35
 0,ADD,Timer,$Timer,0.005
-$Timer,JMPL,74,$gt,363,,,,,
+$Timer,JMPL,76,$gt,363,,,,,
 1.5,Dialogue,1,After Blaster Ring,
 0.3,CombatZoneResize,175,250,475,391
 0,HeartMaxFallSpeed,350

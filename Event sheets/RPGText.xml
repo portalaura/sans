@@ -236,6 +236,9 @@
                             <param id="0" name="Name">&quot;TLPause&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
+                        <action id="2" name="Call expression" sid="101842697847178" type="Function">
+                            <param id="0" name="Expression">&quot;SansText&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="7450123142226868">
