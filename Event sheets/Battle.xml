@@ -11983,6 +11983,10 @@
                                                     <param id="0" name="Name">&quot;SansText&quot;</param>
                                                     <param id="1" name="Parameter {n}">&quot;how about we make it&quot; &amp; newline &amp; &quot;a bit harder&quot;{###}&quot;Dialogue&quot;</param>
                                                 </action>
+                                                <action id="-10" name="Add to" sid="215606326719527" type="System">
+                                                    <param id="0" name="Variable">DialogueNumber</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
                                             </actions>
                                         </event-block>
                                     </sub-events>
