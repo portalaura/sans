@@ -103,10 +103,6 @@
                     <param id="0" name="Variable">HasNoHit</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-9" name="Set value" sid="957769120508571" type="System">
-                    <param id="0" name="Variable">HP</param>
-                    <param id="1" name="Value">37</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block sid="813431028094397">
