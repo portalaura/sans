@@ -87,7 +87,7 @@
                 </action>
                 <action id="-29" name="Set layout effect enabled" sid="786635205542637" type="System">
                     <param id="0" name="Mode">0</param>
-                    <param id="1" name="Effect">&quot;AntiAlazingEffectThing&quot;</param>
+                    <param id="1" name="Effect">&quot;RGBEffect&quot;</param>
                 </action>
                 <action id="-29" name="Set layout effect enabled" sid="293753203630145" type="System">
                     <param id="0" name="Mode">0</param>
@@ -293,7 +293,7 @@
                         </action>
                         <action id="-29" name="Set layout effect enabled" sid="986545675225631" type="System">
                             <param id="0" name="Mode">1</param>
-                            <param id="1" name="Effect">&quot;AntiAlazingEffectThing&quot;</param>
+                            <param id="1" name="Effect">&quot;RGBEffect&quot;</param>
                         </action>
                         <action id="-29" name="Set layout effect enabled" sid="684413982987930" type="System">
                             <param id="0" name="Mode">1</param>
@@ -12904,7 +12904,7 @@
                                             <actions>
                                                 <action id="-29" name="Set layout effect enabled" sid="936412525156201" type="System">
                                                     <param id="0" name="Mode">1</param>
-                                                    <param id="1" name="Effect">&quot;AntiAlazingEffectThing&quot;</param>
+                                                    <param id="1" name="Effect">&quot;RGBEffect&quot;</param>
                                                 </action>
                                                 <action id="-29" name="Set layout effect enabled" sid="626800840675244" type="System">
                                                     <param id="0" name="Mode">1</param>
