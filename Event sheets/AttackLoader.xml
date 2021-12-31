@@ -12,77 +12,74 @@
                         <condition id="4" name="Is empty" sid="6716366940052336" type="AttackList" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Preload" sid="105131912260355" type="Audio">
-                            <param id="0" name="Audio file">Logo Appearing</param>
-                        </action>
                         <action id="5" name="Push" sid="4534521751290753" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_intro&quot;</param>
+                            <param id="1" name="Value">&quot;wts_start&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="9396866984468434" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_bonegap1&quot;</param>
+                            <param id="1" name="Value">&quot;wts_bonecircle&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="4455327624016498" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_bluebone&quot;</param>
+                            <param id="1" name="Value">&quot;wts_chaos&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="3210289417785432" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_bonegap2&quot;</param>
+                            <param id="1" name="Value">&quot;wts_boneslide&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="1362197829392964" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_platforms1&quot;</param>
+                            <param id="1" name="Value">&quot;wts_blasterspam&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="7745298823847402" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_platforms2&quot;</param>
+                            <param id="1" name="Value">&quot;wts_bonebarrage&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="1260174120863198" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_platforms3&quot;</param>
+                            <param id="1" name="Value">&quot;wts_blastercircle&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="3391111219319787" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_multi1&quot;</param>
+                            <param id="1" name="Value">&quot;wts_start2&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="904902605703142" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_randomblaster1&quot;</param>
+                            <param id="1" name="Value">&quot;wts_chaos2&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="8132783675693353" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_multi2&quot;</param>
+                            <param id="1" name="Value">&quot;wts_platforms&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="375272527352408" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_bonestab1&quot;</param>
+                            <param id="1" name="Value">&quot;wts_hell&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="974994622690454" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_healattack&quot;</param>
+                            <param id="1" name="Value">&quot;wts_healattack&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="868499891984241" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_healattack2&quot;</param>
+                            <param id="1" name="Value">&quot;wts_healattack2&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="464666220405138" type="AttackLoader">
                             <param id="0" name="Where">0</param>
-                            <param id="1" name="Value">&quot;sans_dunk&quot;</param>
+                            <param id="1" name="Value">&quot;wts_dunk&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="5" name="Push" sid="8811065622972931" type="AttackLoader">
@@ -148,6 +145,46 @@
                         <action id="5" name="Push" sid="7956789796541343" type="AttackLoader">
                             <param id="0" name="Where">0</param>
                             <param id="1" name="Value">&quot;sans_spare&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="674527416308333" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_healattack_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="882694079398081" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_blastercircle_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="727961773616067" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_bonebarrage_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="794234992016507" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_blasterspam_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="955596103920690" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_boneslide_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="642235714338675" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_chaos_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="578517113551367" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_bonecircle_hard&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="948566214226995" type="AttackLoader">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;wts_start_hard&quot;</param>
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="0" name="Request URL" sid="5737873904560182" type="AJAX">

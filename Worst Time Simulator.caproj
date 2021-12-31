@@ -6,7 +6,7 @@
     <author>Fredo</author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.jcw87.badtime</app-id>
+    <app-id>com.omegafredo.worsttime</app-id>
     <unique-id>3pln6vqtdnxgu</unique-id>
     <saved-with-version>27900</saved-with-version>
     <used-plugins>
@@ -256,6 +256,11 @@
                 <instance-variables>
                     <instance-variable name="Direction" sid="6124536967285148" type="number" />
                 </instance-variables>
+                <effects>
+                    <effect-type name="Tint">
+                        <effect id="tint" />
+                    </effect-type>
+                </effects>
                 <animation-folder>
                     <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6300494068884098" speed="30">
                         <frame duration="3" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jcw87\Documents\Undertale Rip\Sprites\spr_targetchoice_0.png" />
@@ -265,11 +270,6 @@
             </object-type>
             <object-type name="Strike" sid="1284677255483501">
                 <plugin id="Sprite" />
-                <effects>
-                    <effect-type name="Tint">
-                        <effect id="tint" />
-                    </effect-type>
-                </effects>
                 <animation-folder>
                     <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942583768887371" speed="10">
                         <frame duration="1" hotspotX="-1" hotspotY="5.66667" original-source="C:\Users\Jcw87\Documents\Undertale Rip\Sprites\spr_strike_0.png">
@@ -310,6 +310,10 @@
                         </frame>
                     </animation>
                 </animation-folder>
+            </object-type>
+            <object-type name="HPBarHide" sid="965404240493872">
+                <plugin id="TiledBg" />
+                <texture />
             </object-type>
         </object-folder>
         <object-folder name="Enemies">
@@ -384,6 +388,11 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Tired2" pingpong="0" repeatcount="1" repeatto="0" sid="447190640536121" speed="5">
+                        <frame duration="1" hotspotX="0.516129" hotspotY="1.03448">
+                            <image-point name="Sweat" x="0.516129" y="0" />
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Tired3" pingpong="0" repeatcount="1" repeatto="0" sid="460504792434601" speed="5">
                         <frame duration="1" hotspotX="0.516129" hotspotY="1.03448">
                             <image-point name="Sweat" x="0.516129" y="0" />
                         </frame>
@@ -1452,9 +1461,10 @@
         <file name="PlayerHeal.ogg" />
         <file name="GasterBlast2.ogg" />
         <file name="Logo Appearing.ogg" />
+        <file name="SansDamaged.ogg" />
+        <file name="Hard Mode Text.ogg" />
     </sounds-folder>
     <music-folder>
-        <file name="Refused to give up.ogg" />
         <file name="Phase 2 megalo.ogg" />
         <file name="Megalovania HardMode.ogg" />
     </music-folder>
@@ -1467,32 +1477,40 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-        <file name="sans_intro.csv" />
-        <file name="sans_bonegap2.csv" />
-        <file name="sans_platforms1.csv" />
-        <file name="sans_platforms2.csv" />
-        <file name="sans_platforms3.csv" />
+        <file name="wts_start.csv" />
+        <file name="wts_boneslide.csv" />
+        <file name="wts_blasterspam.csv" />
+        <file name="wts_bonebarrage.csv" />
+        <file name="wts_blastercircle.csv" />
         <file name="sans_platforms4.csv" />
         <file name="sans_platformblaster.csv" />
         <file name="sans_platforms4hard.csv" />
         <file name="sans_boneslideh.csv" />
         <file name="sans_bonegap1fast.csv" />
         <file name="sans_platformblasterfast.csv" />
-        <file name="sans_dunk.csv" />
-        <file name="sans_bonestab1.csv" />
+        <file name="wts_dunk.csv" />
+        <file name="wts_hell.csv" />
         <file name="sans_bonestab2.csv" />
         <file name="sans_boneslidev.csv" />
-        <file name="sans_multi1.csv" />
-        <file name="sans_randomblaster1.csv" />
-        <file name="sans_multi2.csv" />
+        <file name="wts_start2.csv" />
+        <file name="wts_chaos2.csv" />
+        <file name="wts_platforms.csv" />
         <file name="sans_randomblaster2.csv" />
         <file name="sans_bonestab3.csv" />
         <file name="sans_multi3.csv" />
         <file name="sans_final.csv" />
-        <file name="sans_bonegap1.csv" />
-        <file name="sans_bluebone.csv" />
-        <file name="sans_healattack.csv" />
+        <file name="wts_bonecircle.csv" />
+        <file name="wts_chaos.csv" />
+        <file name="wts_healattack.csv" />
         <file name="sans_spare.csv" />
-        <file name="sans_healattack2.csv" />
+        <file name="wts_healattack2.csv" />
+        <file name="wts_start_hard.csv" />
+        <file name="wts_bonecircle_hard.csv" />
+        <file name="wts_chaos_hard.csv" />
+        <file name="wts_boneslide_hard.csv" />
+        <file name="wts_blasterspam_hard.csv" />
+        <file name="wts_bonebarrage_hard.csv" />
+        <file name="wts_blastercircle_hard.csv" />
+        <file name="wts_healattack_hard.csv" />
     </files-folder>
 </c2project>

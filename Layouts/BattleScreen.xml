@@ -231,6 +231,26 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="HPBarHide" uid="68">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>338</x>
+                        <y>495</y>
+                        <z>0</z>
+                        <width>21</width>
+                        <height>20</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -324,8 +344,8 @@
                         <width>128</width>
                         <height>140</height>
                         <depth>0</depth>
-                        <hotspotX>0.46875</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.985714257</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -671,7 +691,7 @@
                     <green-x>0</green-x>
                     <green-y>0</green-y>
                     <intensity>1</intensity>
-                    <red-x>1.5</red-x>
+                    <red-x>3</red-x>
                     <red-y>0</red-y>
                 </parameters>
             </effect-instance>
@@ -680,7 +700,7 @@
             <effect id="warp" />
             <effect-instance type="ScreenTear">
                 <parameters>
-                    <x-amplitude>0.55</x-amplitude>
+                    <x-amplitude>0.70</x-amplitude>
                     <x-frequency>2500</x-frequency>
                     <x-speed>15000</x-speed>
                     <y-amplitude>0</y-amplitude>

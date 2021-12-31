@@ -25,6 +25,10 @@
                     <param id="0" name="Character">&quot;&apos;,.:;&quot;</param>
                     <param id="1" name="Width">2</param>
                 </action>
+                <action id="5" name="Set character width" sid="642655745162323" type="SansFont">
+                    <param id="0" name="Character">&quot;äöå&quot;</param>
+                    <param id="1" name="Width">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block any="1" sid="4795387788698696">
@@ -48,6 +52,10 @@
                 <action id="5" name="Set character width" sid="9166024949406787" type="DamageFont">
                     <param id="0" name="Character">&quot;!&apos;.:;il|&quot;</param>
                     <param id="1" name="Width">17</param>
+                </action>
+                <action id="5" name="Set character width" sid="305230890605611" type="SansFont">
+                    <param id="0" name="Character">&quot;äöå&quot;</param>
+                    <param id="1" name="Width">0</param>
                 </action>
             </actions>
         </event-block>
@@ -80,6 +88,10 @@
                 <action id="5" name="Set character width" sid="2731391145283345" type="DefaultFont">
                     <param id="0" name="Character">&quot;&apos;,:;|&quot;</param>
                     <param id="1" name="Width">4</param>
+                </action>
+                <action id="5" name="Set character width" sid="456205914980831" type="SansFont">
+                    <param id="0" name="Character">&quot;äöå&quot;</param>
+                    <param id="1" name="Width">0</param>
                 </action>
             </actions>
         </event-block>
@@ -136,6 +148,10 @@
                 <action id="5" name="Set character width" sid="3742913991759232" type="SansFont">
                     <param id="0" name="Character">&quot;!&apos;,.:il|&quot;</param>
                     <param id="1" name="Width">4</param>
+                </action>
+                <action id="5" name="Set character width" sid="809094145198666" type="SansFont">
+                    <param id="0" name="Character">&quot;äöå&quot;</param>
+                    <param id="1" name="Width">0</param>
                 </action>
             </actions>
         </event-block>

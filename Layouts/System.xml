@@ -826,15 +826,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <effect-instances>
-                        <effect-instance type="Tint">
-                            <parameters>
-                                <blue>0</blue>
-                                <green>1.6</green>
-                                <red>2.55</red>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -860,6 +851,15 @@
                     <instance-variables>
                         <Direction>0</Direction>
                     </instance-variables>
+                    <effect-instances>
+                        <effect-instance type="Tint">
+                            <parameters>
+                                <blue>0</blue>
+                                <green>1.6</green>
+                                <red>2.55</red>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
