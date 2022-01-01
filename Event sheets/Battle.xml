@@ -695,44 +695,71 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="133367614770559">
+                <event-block sid="212531518099885">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="973592583895858" type="SansLegs">
-                            <param id="0" name="Instance variable">HitAttempts</param>
+                        <condition id="-14" name="Compare variable" sid="738761308430141" type="System">
+                            <param id="0" name="Variable">HardMode</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">PHASE2START</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="133367614770559">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="973592583895858" type="SansLegs">
+                                    <param id="0" name="Instance variable">HitAttempts</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">PHASE2START</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="911106672480233" type="Function">
+                                    <param id="0" name="Name">&quot;RunAttack&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;sans_spare&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="295085606097680">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="282952855664726" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="179195951125618" type="Function">
+                                    <param id="0" name="Name">&quot;RunAttack&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;wts_healattack&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="324839221979584">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="920333764592680" type="SansLegs">
+                                    <param id="0" name="Instance variable">HitAttempts</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">PHASE2START</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="206342860810942" type="Function">
+                                    <param id="0" name="Name">&quot;RunAttack&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;wts_healattack2&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="517358643300339">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="471664049771128" type="System">
+                            <param id="0" name="Variable">HardMode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Call function" sid="911106672480233" type="Function">
+                        <action id="0" name="Call function" sid="871994139591673" type="Function">
                             <param id="0" name="Name">&quot;RunAttack&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;sans_spare&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="295085606097680">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="282952855664726" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="179195951125618" type="Function">
-                            <param id="0" name="Name">&quot;RunAttack&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;wts_healattack&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="324839221979584">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="920333764592680" type="SansLegs">
-                            <param id="0" name="Instance variable">HitAttempts</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">PHASE2START</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="206342860810942" type="Function">
-                            <param id="0" name="Name">&quot;RunAttack&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;wts_healattack2&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;wts_healattack_hard&quot;</param>
                         </action>
                     </actions>
                 </event-block>
