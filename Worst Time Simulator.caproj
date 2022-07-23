@@ -1481,7 +1481,7 @@
         <file name="wts_boneslide.csv" />
         <file name="wts_blasterspam.csv" />
         <file name="wts_bonebarrage.csv" />
-        <file name="wts_blastercircle.csv" />
+        <file name="U_wts_blastercircle.csv" />
         <file name="sans_platforms4.csv" />
         <file name="sans_platformblaster.csv" />
         <file name="sans_platforms4hard.csv" />
